@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "title": "Primary colleague",
+    "properties": {
+        "firstName": {
+            "title": "First name",
+            "type": "string"
+        },
+        "surname": {
+            "title": "Surname",
+            "type": "string"
+        },
+        "email": {
+            "title": "Email",
+            "type": "string",
+            "pattern": "^\\S+@\\S+$",
+            "description": "Email will be used for evil."
+        },
+        "phone": {
+            "title": "Phone",
+            "type": "string",
+            "maxLength": 20,
+            "validationMessage": "Don't be greedy!"
+        }
+    },
+    "required": [
+        "name",
+        "email",
+        "phone"
+    ]
+}

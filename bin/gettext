@@ -4,7 +4,7 @@
 var glob = require("glob")
 var fs = require('fs');
 var argv = require('minimist')(process.argv);
-var Extractor = require('angular-gettext-tools').Extractor;
+var Extractor = require('../lib/ExtendedExtractor');
 var Compiler = require('angular-gettext-tools').Compiler;
 
 if (!argv.dest) {

@@ -7,8 +7,8 @@
   },
   "scripts": {
     "test": "bash acceptance-test.sh",
-    "example-extract": "./bin/gettext --files 'example/*.+(html|js)' --dest example/dist/extract.pot --marker-name i18n",
-    "example-compile": "./bin/gettext --compile --files 'example/*.po' --dest example/dist/compiled.js --module gettext-test"
+    "example-extract": "angular-gettext-cli --files 'example/*.+(html|js|json)' --dest example/dist/extract.pot --marker-name i18n",
+    "example-compile": "angular-gettext-cli --compile --files 'example/*.po' --dest example/dist/compiled.js --module gettext-test"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   "dependencies": {
     "angular-gettext-tools": "^2.1.11",
     "glob": "^6.0.4",
+    "lodash": "^4.5.1",
     "minimist": "^1.1.0"
   }
 }

@@ -1,3 +1,13 @@
+**Note: this is a forked version of [`angular-gettext-cli`](https://github.com/huston007/angular-gettext-cli) to add json extraction possibility.**
+
+Additional cli parameters: 
+`--json-properties [property]`
+
+Usage:
+`angular-gettext-cli --files "example/*.+(html|js|json)" --dest example/dist/extract.pot --json-properties title --json-properties validationMessage --json-properties description`
+
+---
+
 angular-gettext-cli [![Build Status](https://travis-ci.org/huston007/angular-gettext-cli.svg?branch=master)](https://travis-ci.org/huston007/angular-gettext-cli)
 ===================
 
