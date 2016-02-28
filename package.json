@@ -1,5 +1,5 @@
 {
-  "name": "angular-gettext-cli",
+  "name": "@pr0da/angular-gettext-cli",
   "version": "1.0.7",
   "description": "A command line interface for angular gettools",
   "bin": {
@@ -31,5 +31,6 @@
     "glob": "^6.0.4",
     "lodash": "^4.5.1",
     "minimist": "^1.1.0"
-  }
+  },
+  "devDependencies": {}
 }
