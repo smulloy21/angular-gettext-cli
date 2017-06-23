@@ -1,5 +1,5 @@
 {
-  "name": "@smulloy21/angular-gettext-cli",
+  "name": "angular-gettext-cli",
   "version": "1.0.7",
   "description": "A command line interface for angular gettools",
   "bin": {
